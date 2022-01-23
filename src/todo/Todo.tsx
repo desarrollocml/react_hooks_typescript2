@@ -3,8 +3,11 @@ import { TodoProvider } from "./context/TodoProvider";
 
 export const Todo = () => {
   return (
-    <TodoProvider>
-      <TodoList/>
-    </TodoProvider>
+    <>
+      <h1>Todo:</h1>
+      <TodoProvider>
+        <TodoList />
+      </TodoProvider>
+    </>
   );
 };
